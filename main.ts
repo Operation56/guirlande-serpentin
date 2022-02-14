@@ -1,4 +1,7 @@
 let colonne_droite_vers_gauche = 0
+input.onGesture(Gesture.Shake, function () {
+    basic.showIcon(IconNames.Heart)
+})
 basic.forever(function () {
     for (let Ligne = 0; Ligne <= 4; Ligne++) {
         for (let colonne_gauche_vers_droite = 0; colonne_gauche_vers_droite <= 4; colonne_gauche_vers_droite++) {
