@@ -8,7 +8,7 @@ basic.forever(function () {
                 basic.pause(300)
                 led.unplot(colonne_gauche_vers_droite, Ligne)
             } else {
-                led.plot(colonne_droite_vers_gauche, Ligne)
+                led.plot(0, colonne_droite_vers_gauche)
                 basic.pause(300)
                 led.unplot(colonne_droite_vers_gauche, Ligne)
             }
